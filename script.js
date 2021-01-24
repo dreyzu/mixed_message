@@ -49,7 +49,7 @@ for (let prop in coolMessageParts) {
 }
 
 function formatMessage(message) {
-	const formatted = personalWisdom.join("\n");
+	const formatted = coolMessageParts.join("\n");
 	console.log(formatted);
 }
 
