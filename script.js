@@ -30,17 +30,17 @@ for (let prop in coolMessageParts) {
 	switch (prop) {
 		case "jobSelect":
 			personalMessage.push(
-				`Your job right now is "${collectiveWisdom[prop][optionIndex]}".`
+				`Your job right now is "${coolMessageParts[prop][optionIndex]}".`
 			);
 			break;
 		case "fortuneMessage":
 			personalMessage.push(
-				`You are having: "${collectiveWisdom[prop][optionIndex]}".`
+				`You are having: "${coolMessageParts[prop][optionIndex]}".`
 			);
 			break;
 		case "advice":
 			personalMessage.push(
-				`You should: "${collectiveWisdom[prop][optionIndex]}".`
+				`You should: "${coolMessageParts[prop][optionIndex]}".`
 			);
 			break;
 		default:
